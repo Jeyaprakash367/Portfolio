@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "poppins",sans-serif;
+  text-decoration: none;
+}
+body{
+  overflow-x: hidden;
+}
+.hero-header{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: #222;
+}
+.wrapper{
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header{
+  padding: 40px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.logo i{
+  height: 45px;
+  width: 45px;
+  background-color: yellow;
+  border-radius: 50%;
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;  
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.logo i:hover{
+  color: red;
+}
+.logo .logo-text{
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+
+
+nav .navlinks{
+  list-style-type:circle;
+}
+nav .navlinks li{
+  display: inline-block;
+}
+nav .navlinks li a{
+  color: #e5e5e5;
+  margin-left:3rem;
+}
+nav .navlinks li a:hover{
+  color: #007ced;
+  z-index: 2s;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
+}
+.container .hero-pic{
+  width: 700px;
+  height: 440px;
+  border-radius: 70%;
+  overflow: hidden;
+  border: 3px solid #444;
+  box-shadow: 5px 7px 5px 2px rgba(0,0,0,0.5);
+}
+.hero-pic img{
+  height: 140%;
+  width: 95%;
+  transition: 0.5s;
+}
+.hero-pic img:hover{
+  transform: scale(1.2);
+}
+.hero-text {
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.hero-text h5{
+  color: #e5e5e5;
+  font-size: 14px;
+  justify-content: center;
+  margin: 20px;
+}
+.hero-text h5 span{
+  color: #007ced;
+  font-size: 16px;
+}
+.hero-text h1{
+  color: #007ced;
+  font-size: 3rem;
+}
+.hero-text p{
+  color: #e5e5e5;
+}
+.btn-group{
+  margin: 45px 0;
+}
+.btn-group .btn{
+  border-color: #d5d5d5;
+  color: #fff;
+  background-color: #333;
+  padding: 12px 25px;
+  margin: 5px 0;
+  margin-right: 7px;
+  border-radius: 30px;
+  border: 2px solid #e5e5e5;
+  box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+}
+.btn-group .btn:hover{
+  color: #007ced;
+}
+.btn.active{
+ border-color: #007ced;
+ 
+}
+.hero-text .social i{
+  color: #e5e5e5;
+  font-size: 18px;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+.hero-text .social i:hover{
+  color: #007ced;
+  transform: rotate(360deg);
+}
+
+
+
+
+
