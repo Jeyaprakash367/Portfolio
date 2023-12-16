@@ -79,16 +79,16 @@ nav .navlinks li a:hover{
   padding-top: 4rem;
 }
 .container .hero-pic{
-  width: 700px;
-  height: 440px;
-  border-radius: 70%;
+  width: 480px;
+  height: 400px;
+  border-radius: 60%;
   overflow: hidden;
   border: 3px solid #444;
   box-shadow: 5px 7px 5px 2px rgba(0,0,0,0.5);
 }
 .hero-pic img{
-  height: 140%;
-  width: 95%;
+  height: 130%;
+  width: 92%;
   transition: 0.5s;
 }
 .hero-pic img:hover{
@@ -138,9 +138,12 @@ nav .navlinks li a:hover{
  border-color: #007ced;
  
 }
+.btn.active1{
+  border-color: #007ced;
+}
 .hero-text .social i{
   color: #e5e5e5;
-  font-size: 18px;
+  font-size: 22px;
   margin-right: 10px;
   transition: 0.5s;
 }
